@@ -1,0 +1,34 @@
+@use '../styles/global' as *;
+
+.navbar{
+    .nav-links{
+        li{
+            background-color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            &:hover{
+                background-color: whitesmoke;
+                cursor: pointer;
+                animation-duration: 300ms;
+            }
+            a{
+                color: $primary-color;
+            }
+        }
+    }
+}
+.pregled-knjige{
+    margin: 20px;
+table{
+    border-collapse: collapse;
+    th,td{
+        padding: 20px;
+        border: 1px solid black;
+    }
+}
+}
+.detalji-knjige{
+    margin-top: 20px;
+    padding: 20px;
+    width: 600px;
+}
