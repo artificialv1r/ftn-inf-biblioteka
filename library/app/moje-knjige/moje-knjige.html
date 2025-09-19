@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../dist/moje-knjige/moje-knjige.css" />
+    <title>OnlineLib</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="title">OnlineLib</h1>
+      <ul class="nav-links">
+        <li><a href="../contact/contact.html">Info</a></li>
+        <li><a href="../moje-knjige/moje-knjige.html">Moje Knjige</a></li>
+        <li>
+          <a href="../pregled-knjiga/pregled-knjiga.html">Pregled Knjiga</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="moje-knjige">
+      <div class="iznajmljene-knjige">
+        <p>Iznajmljene knjige</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Br</th>
+              <th>Naziv</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="iznajmljene-body"></tbody>
+        </table>
+      </div>
+
+      <div class="sve-knjige">
+        <p>Sve knjige</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Br</th>
+              <th>Naziv</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="sve-body"></tbody>
+        </table>
+      </div>
+    </section>
+    <script src="../moje-knjige/moje-knjige.js"></script>
+  </body>
+</html>
